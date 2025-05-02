@@ -1,0 +1,93 @@
+
+/* Styling for the Signup Page */
+.signup-container {
+    max-width: 500px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    width: 200%;
+    margin-left: -50%;
+  }
+  
+  .signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black; /* Title color */
+  }
+  
+  /* Form group styles */
+  .form-group {
+    margin-bottom: 5px;
+  }
+  
+  /* Label text style */
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black; /* Label text color */
+  }
+  
+  /* Input fields styling */
+  .form-group input,
+  .form-group select {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: black;
+  }
+  
+  /* Focus effect on input fields */
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: #00ff4c;
+    outline: none;
+  }
+  
+  /* Specific style for the Role dropdown */
+  .form-group select {
+    background-color: #e0f7fa; /* Light blue background for the Role select box */
+    border: 1px solid #00796b; /* Darker border color */
+    color: #00796b; /* Dark green text */
+    width: 100%;
+  }
+  
+  .form-group select:focus {
+    background-color: #b2dfdb; /* Slightly darker background on focus */
+    border-color: #004d40; /* Darker border on focus */
+  }
+  
+  /* Submit button style */
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #00ff6a;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px; /* Add space from the top */
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,102 @@
+/* Ensure the body takes up full height */
+body {
+    height: 100%;
+    margin: 5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    background-color: #d6cdcd; /* Dark background for the whole page */
+  }
+  
+  /* Styling for the Login Page */
+  .login-container {
+    max-width: 500px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    width: 1000%;
+    margin-left: -50%;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black; /* Change the title (h2) to black */
+  }
+  
+  /* Form group styles */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Change the text (labels) to black */
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black; /* Change the label text to black */
+  }
+  
+  /* Username and password input fields with adjusted length */
+  .form-group input {
+    width: 1000%; /* Adjusted to take full width of the container */
+    padding: 5x;
+    font-size: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #000; /* Black background */
+    color: white; /* White text inside the fields */
+    
+  }
+  
+  /* Input field focus styles */
+  .form-group input:focus {
+    border-color: #00ff88;
+    outline: none;
+  }
+  
+  /* Login button styles */
+  .login-btn {
+    width: 99.4%;
+    padding: 12px;
+    background-color: #00ff6a;
+    color: black; /* Change the button text to black */
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Sign-up link styles */
+  .signup-link {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .signup-link a {
+    color: #00ff37;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  .success-message {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
